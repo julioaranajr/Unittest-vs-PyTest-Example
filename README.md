@@ -24,3 +24,7 @@ pytest -v -s
 ```
 
 If you have any questions about the project please raise an Issue on GitHub.
+
+## Output
+
+![Output](output.png)
