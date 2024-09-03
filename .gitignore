@@ -1,9 +1,8 @@
+# Python
 __pycache__
 *.pytest_cache
+
+# Virtual Environment
 venv/
-# .env
-*.db
-*.idea
-*.ruff_cache
-*.log
-*logs
+.env
+
