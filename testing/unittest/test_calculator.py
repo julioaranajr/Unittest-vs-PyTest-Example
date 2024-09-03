@@ -8,7 +8,7 @@ class TestCalculator(unittest.TestCase):
         #will run every test
         self.my_calc = Calculator(8,2)
 
-    # @classmethod 
+    # @classmethod
     # def setUpClass(cls):
     #     #will run once at the beginning of the test
     #     cls.my_calc = Calculator(8,2)
@@ -29,7 +29,7 @@ class TestCalculator(unittest.TestCase):
     def test_division(self):
         calc = Calculator(8,0)
         with self.assertRaises(ZeroDivisionError) as error:
-            result = calc.divide()
+            calc.divide()
 
         self.assertEqual(str(error.exception), "You Cannot divide by zero (0)")
 
