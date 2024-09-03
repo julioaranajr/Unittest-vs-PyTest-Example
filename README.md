@@ -68,8 +68,17 @@ There are many testing frameworks available for Python, including:
 
 Each testing framework has its own features and capabilities. Unittest, for example, is the built-in testing framework for Python and is widely used for testing Python code. Pytest is another popular testing framework that provides a more flexible and powerful testing environment.
 
-## Conclusion
+## Summary
 
 Testing is an important part of the software development process. It helps to ensure that the software is working as expected and that it meets the requirements of the users. There are many types of testing and testing frameworks available for Python. By using the right testing framework and following best practices, you can ensure that your software is reliable, secure, and bug-free.
 
----
+## What's Next?
+
+In the next chapter, we will learn about what is [Unittest](assets/unittest/1_Unittest_In_Python.md) and how it can be used to write and run tests for your code.
+
+## Resources
+
+- [Unittest Documentation](http://docs.python.org/library/unittest.html)
+- [Unittest - Python Testing](https://realpython.com/python-testing/)
+- [Pytest Documentation](https://docs.pytest.org/en/latest/)
+- [Pytest - Python Testing](https://realpython.com/pytest-python-testing/)
